@@ -94,6 +94,10 @@ header .nav-top .nav-right ul li a {
 
 /* ----navbar-start------ */
 
+nav.navbar {
+  padding: 20px 0;
+}
+
 nav.navbar .navbar-brand h2 {
   font-family: "Lato", sans-serif;
   font-size: 1.875rem;
@@ -143,6 +147,63 @@ nav.navbar .nav-right button .hover-part input[type="search"] {
 
 /* -------------header-END--------------- */
 
+/* -----------carousel-START------------- */
+.carousel #carouselExampleControls .carousel-inner .carousel-item {
+  height: 700px;
+}
+
+/* carousel-middle-title */
+.carousel #carouselExampleControls .carousel-inner .carousel-item img {
+  height: 700px;
+}
+.carousel #carouselExampleControls .carousel-inner .carousel-item h2 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-size: 6.25rem;
+  font-weight: 400;
+  line-height: 1.1;
+}
+.carousel #carouselExampleControls .carousel-inner .carousel-item {
+}
+
+.carousel
+  #carouselExampleControls
+  .carousel-inner
+  .carousel-item
+  .bottom-title {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  color: #fff;
+}
+.carousel
+  #carouselExampleControls
+  .carousel-inner
+  .carousel-item
+  .bottom-title
+  p {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 0;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+.carousel
+  #carouselExampleControls
+  .carousel-inner
+  .carousel-item
+  .bottom-title
+  span {
+  font-family: "Lato", sans-serif;
+  font-size: 0.875rem;
+  line-height: 2.14;
+}
+/* carousel-middle-title */
+
+/* -----------carousel-END------------- */
+
 /* ----------------look-body-start-------- */
 
 .look-body {
@@ -150,24 +211,28 @@ nav.navbar .nav-right button .hover-part input[type="search"] {
 }
 
 .look-body .body-look-content {
+  position: relative;
+}
+
+.look-body .body-look-content .body-look-content-img {
 }
 
 .look-body .body-look-content .body-look-content-img img {
   width: 460px;
   height: 600px;
-  z-index: -1;
 }
 
 .look-body .body-look-content .absolute-section {
-  bottom: 48px;
-  z-index: 2;
   width: 50%;
+  bottom: 48px;
+  left: 0;
 }
 
 .look-body .body-look-content .absolute-section h2 {
   font-family: "Playfair Display", serif;
   font-size: 4.5rem;
   line-height: 1.18;
+  margin-bottom: 0;
 }
 
 .look-body .body-look-content .absolute-section p {
@@ -223,55 +288,49 @@ nav.navbar .nav-right button .hover-part input[type="search"] {
 
 /*new-items-product-start  */
 .new-items-product {
-  padding-bottom: 120px;
+  padding-top: 114px;
 }
 
 .new-items-product-wrapper {
 }
+
 .new-items-product-wrapper .new-items-product-img img {
   width: 270px;
   height: 320px;
 }
 
-/* ------------hover-effect-start----- */
-
-.new-items-product-wrapper {
+.new-items-product-wrapper .new-items-product-img {
   position: relative;
 }
 
-.new-items-product-wrapper .new-items-product-hover {
-}
-
-.new-items-product-wrapper .new-items-product-hover .icons {
-  /* top: 50%;
-  left: 0;
-  transform: translate(50%, -50%);
-  cursor: pointer; */
-}
-
-.new-items-product-wrapper .new-items-product-hover .icons span {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--body-color);
+.new-items-product-wrapper .new-items-product-img .offers {
+  background-color: #5064fa;
   color: #fff;
+  font-size: 0.625rem;
+  /* margin-left: 80px;
+  margin-right: 80px;
+  margin-top: -24px; */
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: 0;
+  left: 50%;
+  width: 40%;
 }
 
-/* .new-items-product-wrapper
-  .new-items-product-img
-  .new-items-product-hover
-  .star-icons {
-} */
-.new-items-product-wrapper .new-items-product-hover .icons .star-icons span {
+.new-items-product-wrapper .new-items-product-img-description {
+  margin-top: 24px;
+}
+.new-items-product-wrapper .new-items-product-img-description p {
+  font-family: "Lato", sans-serif;
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+.new-items-product-wrapper .new-items-product-img-description span {
   font-family: "Playfair Display", serif;
-  display: inline-block;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--primary-color);
 }
 
-/* ------------hover-effect-END----- */
 /*new-items-product-end  */
 
 /* --------New-items-section-END --------*/
