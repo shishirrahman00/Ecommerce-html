@@ -338,7 +338,7 @@ nav.navbar .nav-right button .hover-part input[type="search"] {
 /* -----------sales-section-start------- */
 
 .sales {
-  padding: 110px 0;
+  padding-top: 110px;
 }
 .sales .sale-images {
   position: relative;
@@ -376,3 +376,43 @@ nav.navbar .nav-right button .hover-part input[type="search"] {
   margin-top: 10px;
 }
 /* -----------sales-section-ENd------- */
+
+/* --------------SERVICE-SECTION-START--------- */
+.service {
+  padding-top: 220px;
+  padding-bottom: 110px;
+}
+.service .service-wrapper {
+  cursor: pointer;
+}
+
+.service .service-wrapper .service-title {
+}
+
+.service .service-wrapper .service-title h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+.service .service-wrapper .service-title p {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+  margin-top: 12px;
+}
+
+.service .service-wrapper .service-title a {
+  font-family: "Lato", sans-serif;
+  color: #1ba3d9 !important;
+  font-size: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.service .service-wrapper .service-title a i {
+  margin-left: 4px;
+  font-size: 0.675rem;
+}
+/* --------------SERVICE-SECTION-END--------- */
