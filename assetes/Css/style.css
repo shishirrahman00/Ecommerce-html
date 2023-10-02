@@ -250,9 +250,6 @@ nav.navbar .nav-right button .hover-part input[type="search"] {
   position: relative;
 }
 
-.look-body .body-look-content .body-look-content-img {
-}
-
 .look-body .body-look-content .body-look-content-img img {
   width: 460px;
   height: 600px;
@@ -305,11 +302,6 @@ nav.navbar .nav-right button .hover-part input[type="search"] {
 /* ----------------look-body-start-------- */
 
 /* --------New-items-section-START------- */
-.new-items {
-}
-
-.new-items .new-items-title {
-}
 
 .new-items .new-items-title h4 {
   font-family: "Lato", sans-serif;
@@ -325,9 +317,6 @@ nav.navbar .nav-right button .hover-part input[type="search"] {
 /*new-items-product-start  */
 .new-items-product {
   padding-top: 114px;
-}
-
-.new-items-product-wrapper {
 }
 
 .new-items-product-wrapper .new-items-product-img img {
@@ -392,27 +381,36 @@ nav.navbar .nav-right button .hover-part input[type="search"] {
   left: 50%;
   transform: translateX(-50%);
 }
-.sales .sale-images .absolute-title h2 {
+
+.sales .sale-images .absolute-title h2,
+.lookbook .lookbook .lookbook-image .absolute-title h2 {
   margin-bottom: 0;
   font-family: "Playfair Display", serif;
   font-size: 4.5rem;
   line-height: 1.18;
 }
-.sales .sale-images .absolute-title h2 span {
+
+.sales .sale-images .absolute-title h2 span,
+.lookbook .lookbook .lookbook-image .absolute-title h2 span {
   display: block;
 }
-.sales .sale-images .absolute-title p {
+
+.sales .sale-images .absolute-title p,
+.lookbook .lookbook .lookbook-image .absolute-title p {
   font-family: "Lato", sans-serif;
   margin-bottom: 0;
   margin-top: 18px;
   text-transform: uppercase;
 }
-.sales .sale-images .absolute-title a {
+
+.sales .sale-images .absolute-title a,
+.lookbook .lookbook .lookbook-image .absolute-title a {
   font-size: 1.5rem;
   line-height: 0.9;
   display: block;
   margin-top: 10px;
 }
+
 /* -----------sales-section-ENd------- */
 
 /* --------------SERVICE-SECTION-START--------- */
@@ -422,9 +420,6 @@ nav.navbar .nav-right button .hover-part input[type="search"] {
 }
 .service .service-wrapper {
   cursor: pointer;
-}
-
-.service .service-wrapper .service-title {
 }
 
 .service .service-wrapper .service-title h4 {
@@ -490,7 +485,7 @@ nav.navbar .nav-right button .hover-part input[type="search"] {
 /* ---------NEWSLATTER-SECTION-END--------- */
 
 /* --------------------------------HOME-PAGE-2 CSS START---------------------------------- */
-
+/* -----nav-start----- */
 .nav-menu nav.navbar ul {
 }
 
@@ -508,5 +503,97 @@ nav.navbar .nav-right button .hover-part input[type="search"] {
 
 .nav-menu nav.navbar ul li.nav-item a.nav-link {
 }
+
+/* -----nav-end----- */
+
+/* ----------Hero-slider-start------- */
+.hero-slider {
+}
+
+.hero-slider #carouselExampleControls .carousel-inner .carousel-item h2.title {
+  top: 50%;
+  left: 40%;
+  transform: translate(-30%, -60%);
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-size: 6.25rem;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+/* ----------Hero-slider-END------- */
+
+/* ----------MODULES SECTION-START------- */
+
+.modules {
+  padding: 30px 0;
+}
+
+.modules .catagory {
+  padding: 30px;
+}
+
+.modules .catagory.catagory-1,
+.modules .catagory.catagory-3 {
+  border: 1px solid var(--body-color);
+}
+
+.modules .catagory.catagory-2 {
+  border-top: 1px solid var(--body-color);
+  border-bottom: 1px solid var(--body-color);
+}
+
+.modules .catagory .catagory-content {
+  display: flex;
+  align-items: center;
+}
+
+.modules .catagory .catagory-content .catagory-photo img {
+  width: 100px;
+  height: 100px;
+}
+
+.modules .catagory .catagory-content .catagory-photo-description {
+  margin-left: 20px;
+}
+
+.modules .catagory .catagory-content .catagory-photo-description h4 {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.modules .catagory .catagory-content .catagory-photo-description span {
+  margin-bottom: 0;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-size: 0.875rem;
+  color: var(--primary-color);
+}
+
+/* ----------MODULES SECTION-END------- */
+
+/* ------------LOOKBOOK SECTION-START--------- */
+.lookbook {
+  position: relative;
+}
+
+.lookbook .boy-lookbook {
+}
+
+.lookbook .lookbook .lookbook-image img {
+  width: 570px;
+  height: 570px;
+}
+
+.lookbook .lookbook .lookbook-image .absolute-title {
+  position: absolute;
+  bottom: -114px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* ------------LOOKBOOK SECTION-END--------- */
 
 /* --------------------------------HOME-PAGE-2 CSS END---------------------------------- */
