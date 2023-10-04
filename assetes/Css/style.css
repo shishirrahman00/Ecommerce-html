@@ -246,35 +246,35 @@ nav.navbar .nav-right button .hover-part input[type="search"] {
   padding: 120px 0;
 }
 
-.look-body .body-look-content {
+.look-body .body-look-content-img {
   position: relative;
 }
 
-.look-body .body-look-content .body-look-content-img img {
+.look-body .body-look-content-img img {
   width: 460px;
   height: 600px;
 }
 
-.look-body .body-look-content .absolute-section {
+.look-body .body-look-content-img .absolute-section {
   width: 50%;
   bottom: 48px;
   left: 0;
 }
 
-.look-body .body-look-content .absolute-section h2 {
+.look-body .body-look-content-img .absolute-section h2 {
   font-family: "Playfair Display", serif;
   font-size: 4.5rem;
   line-height: 1.18;
   margin-bottom: 0;
 }
 
-.look-body .body-look-content .absolute-section p {
+.look-body .body-look-content-img .absolute-section p {
   font-family: "Lato", sans-serif;
   margin-bottom: 0;
   margin-top: 18px;
 }
 
-.look-body .body-look-content .absolute-section i {
+.look-body .body-look-content-img .absolute-section i {
   font-size: 1.5rem;
   line-height: 0.9;
   margin-top: 12px;

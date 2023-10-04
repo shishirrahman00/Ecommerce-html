@@ -1,0 +1,43 @@
+/* ------------------HOME-1 RESPONSIVE-START-------------- */
+/* 320px-start */
+@media (min-width: 320px) {
+  header .nav-top .nav-right ul li.extra-padding {
+    /* padding: 0 6px; */
+  }
+  header .nav-top .nav-right ul li {
+    margin-left: 6px;
+  }
+}
+/* 320px-End */
+
+/* 768px-start */
+
+@media (min-width: 768px) {
+  header .nav-top .nav-right ul li.extra-padding {
+    padding: 0;
+  }
+  header .nav-top .nav-right ul li {
+    margin-left: 16px;
+  }
+}
+/* 768px-End */
+
+/* 1024px-start */
+
+@media (min-width: 1024px) {
+  header .nav-top .nav-right ul li.extra-padding {
+    padding: 0 50px 0 34px;
+  }
+}
+
+/* 1024px-End */
+
+/* 1440px-start */
+@media (max-width: 1440px) {
+  body {
+    margin-left: 6px;
+  }
+}
+/* 1440px-End */
+
+/* ------------------HOME-1 RESPONSIVE-END-------------- */
