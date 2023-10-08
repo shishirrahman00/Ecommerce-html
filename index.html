@@ -26,29 +26,36 @@
   <body>
     <header>
       <div class="container">
-        <div class="nav-top d-flex align-items-center justify-content-between">
-          <div class="top-text">
-            <p class="d-inline-flex align-items-center">
-              <i class="fa-solid fa-bullhorn"></i>Welcome to 1992 Online Shop!
-              Let’s start to shopping NOW !!!
-            </p>
-          </div>
+        <div class="nav-top">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="top-text">
+                <p class="d-inline-flex align-items-center">
+                  <i class="fa-solid fa-bullhorn"></i>Welcome to 1992 Online
+                  Shop! Let’s start to shopping NOW !!!
+                </p>
+              </div>
+            </div>
+            <div class="offset-lg-3 col-lg-5 col-md-6">
+              <div class="nav-right">
+                <ul class="d-flex">
+                  <li>
+                    <a href="#"
+                      ><i class="fa-solid fa-earth-asia"></i>English</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-money-bill"></i>USD</a>
+                  </li>
+                  <li class="extra-padding">
+                    <a href="#">Shipping to: Vietnam</a>
+                  </li>
 
-          <div class="nav-right">
-            <ul class="d-flex">
-              <li>
-                <a href="#"><i class="fa-solid fa-earth-asia"></i>English</a>
-              </li>
-              <li>
-                <a href="#"><i class="fa-solid fa-money-bill"></i>USD</a>
-              </li>
-              <li class="extra-padding">
-                <a href="#">Shipping to: Vietnam</a>
-              </li>
-
-              <li><a href="#">Sign in</a></li>
-              <li><a href="#">Register</a></li>
-            </ul>
+                  <li><a href="#">Sign in</a></li>
+                  <li><a href="#">Register</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -56,62 +63,85 @@
 
     <!-- navbar-start -->
 
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand me-0" href="#"><h2 class="mb-0">1992</h2></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav text-uppercase m-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Boy</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">girl</a>
-            </li>
+        <div class="row">
+          <div class="col-lg-3">
+            <a class="navbar-brand me-0" href="#"><h2 class="mb-0">1992</h2></a>
+          </div>
+          <div class="col-lg-9">
+            <div class="nav-menu-right">
+              <div>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasNavbar"
+                  aria-controls="offcanvasNavbar"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="offcanvas offcanvas-end"
+                  tabindex="-1"
+                  id="offcanvasNavbar"
+                  aria-labelledby="offcanvasNavbarLabel"
+                >
+                  <div class="offcanvas-header">
+                    <a class="navbar-brand me-0" href="#"
+                      ><h2 class="mb-0">1992</h2></a
+                    >
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav text-uppercase">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Boy</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">girl</a>
+                      </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">sale</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">pages</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">contact</a>
-            </li>
-          </ul>
-        </div>
-        <div class="nav-right">
-          <button type="button " class="btn">
-            <i class="fa fa-search"></i>
-            <!-- 
-            <div class="hover-part">
-              <input type="search" placeholder="Press 'Enter' to search..." />
-            </div> -->
-          </button>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">sale</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">pages</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="nav-right">
+                <button type="button" class="btn">
+                  <i class="fa fa-search"></i>
+                </button>
 
-          <button type="button" class="btn position-relative">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <span
-              class="position-absolute translate-middle badge bg-danger rounded-circle cart-number"
-              >0</span
-            >
-          </button>
+                <button type="button" class="btn position-relative">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <span
+                    class="position-absolute translate-middle badge bg-danger rounded-circle cart-number"
+                    >0</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
@@ -204,7 +234,7 @@
     <section class="look-body">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-12">
             <div class="body-look-content-img text-end">
               <img src="./assetes/img/look-body-img-1.jpg" alt="" />
               <div class="absolute-section text-start position-absolute">
@@ -215,7 +245,7 @@
             </div>
           </div>
 
-          <div class="offset-lg-1 col-lg-5">
+          <div class="offset-lg-1 col-lg-5 col-md-12">
             <div class="look-body-video-wrapper">
               <div class="video-part text-end">
                 <iframe
@@ -255,7 +285,7 @@
     <section class="new-items-product">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-6">
             <div class="new-items-product-wrapper text-center text-uppercase">
               <div class="new-items-product-img">
                 <img src="./assetes/img/cart-1.jpg" alt="" />
@@ -285,7 +315,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-6">
             <div class="new-items-product-wrapper text-center text-uppercase">
               <div class="new-items-product-img">
                 <img src="./assetes/img/cart-2.jpg" alt="" />
@@ -312,7 +342,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-6">
             <div class="new-items-product-wrapper text-center text-uppercase">
               <div class="new-items-product-img">
                 <img src="./assetes/img/cart-3.jpg" alt="" />
@@ -342,7 +372,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-6">
             <div class="new-items-product-wrapper text-center text-uppercase">
               <div class="new-items-product-img">
                 <img src="./assetes/img/cart-4.jpg" alt="" />
@@ -435,7 +465,7 @@
     <section class="new-items-product">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-6">
             <div class="new-items-product-wrapper text-center text-uppercase">
               <div class="new-items-product-img">
                 <img src="./assetes/img/cart-1.jpg" alt="" />
@@ -465,7 +495,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-6">
             <div class="new-items-product-wrapper text-center text-uppercase">
               <div class="new-items-product-img">
                 <img src="./assetes/img/cart-2.jpg" alt="" />
@@ -492,7 +522,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-6">
             <div class="new-items-product-wrapper text-center text-uppercase">
               <div class="new-items-product-img">
                 <img src="./assetes/img/cart-3.jpg" alt="" />
@@ -522,7 +552,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-6">
             <div class="new-items-product-wrapper text-center text-uppercase">
               <div class="new-items-product-img">
                 <img src="./assetes/img/cart-4.jpg" alt="" />
@@ -579,7 +609,7 @@
     <section class="service">
       <div class="container">
         <div class="row">
-          <div class="offset-lg-1 col-lg-4">
+          <div class="offset-lg-1 col-lg-4 col-md-6">
             <div class="service-wrapper text-center">
               <div class="service-title">
                 <h4 class="mb-0 text-uppercase">Free shipping</h4>
@@ -590,7 +620,7 @@
               </div>
             </div>
           </div>
-          <div class="offset-lg-2 col-lg-4">
+          <div class="offset-lg-2 col-lg-4 col-md-6">
             <div class="service-wrapper text-center">
               <div class="service-title">
                 <h4 class="mb-0 text-uppercase">Free returns</h4>
@@ -611,55 +641,52 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8">
-            <div class="newslatter-form">
-              <h2>Newslatter</h2>
+            <div class="newslatter-wrapper">
+              <div class="newslatter-form">
+                <h2>Newslatter</h2>
 
-              <div class="sign-up">
-                <form action="#">
-                  <input type="email" placeholder="Enter email address" />
-                  <button type="submit" class="text-uppercase">Submit</button>
-                </form>
+                <div class="sign-up">
+                  <form action="#">
+                    <input type="email" placeholder="Enter email address" />
+                    <button type="submit">Submit</button>
+                  </form>
+                </div>
+
+                <p>
+                  Sign up to receive the lastest fashion, trend and culture via
+                  email and get exclusive offers from 1992's Shop.
+                </p>
               </div>
-
-              <p>
-                Sign up to receive the lastest fashion, trend and culture via
-                email and get exclusive offers from 1992's Shop.
-              </p>
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="intagram-part">
-              <div class="row">
-                <div class="col-lg-4">
-                  <img src="./assetes/img/cart-1.jpg" alt="" />
-                </div>
-                <div class="col-lg-4">
-                  <img src="./assetes/img/cart-1.jpg" alt="" />
-                </div>
-                <div class="col-lg-4">
-                  <img src="./assetes/img/cart-1.jpg" alt="" />
-                </div>
-
-                <div class="col-lg-4">
-                  <img src="./assetes/img/cart-1.jpg" alt="" />
-                </div>
-
-                <div class="col-lg-4">
-                  <img src="./assetes/img/cart-1.jpg" alt="" />
-                </div>
-                <div class="col-lg-4">
-                  <img src="./assetes/img/cart-1.jpg" alt="" />
-                </div>
-
-                <div class="col-lg-4">
-                  <img src="./assetes/img/cart-1.jpg" alt="" />
-                </div>
-                <div class="col-lg-4">
-                  <img src="./assetes/img/cart-1.jpg" alt="" />
-                </div>
-                <div class="col-lg-4">
-                  <img src="./assetes/img/cart-1.jpg" alt="" />
-                </div>
+            <div class="instagram-part">
+              <div class="photo">
+                <img src="./assetes/img/cart-1.jpg" alt="" />
+              </div>
+              <div class="photo">
+                <img src="./assetes/img/cart-1.jpg" alt="" />
+              </div>
+              <div class="photo">
+                <img src="./assetes/img/cart-1.jpg" alt="" />
+              </div>
+              <div class="photo">
+                <img src="./assetes/img/cart-1.jpg" alt="" />
+              </div>
+              <div class="photo">
+                <img src="./assetes/img/cart-1.jpg" alt="" />
+              </div>
+              <div class="photo">
+                <img src="./assetes/img/cart-1.jpg" alt="" />
+              </div>
+              <div class="photo">
+                <img src="./assetes/img/cart-1.jpg" alt="" />
+              </div>
+              <div class="photo">
+                <img src="./assetes/img/cart-1.jpg" alt="" />
+              </div>
+              <div class="photo">
+                <img src="./assetes/img/cart-1.jpg" alt="" />
               </div>
             </div>
           </div>

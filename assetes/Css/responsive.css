@@ -1,11 +1,11 @@
 /* ------------------HOME-1 RESPONSIVE-START-------------- */
 /* 320px-start */
 @media (min-width: 320px) {
-  header .nav-top .nav-right ul li.extra-padding {
-    /* padding: 0 6px; */
-  }
   header .nav-top .nav-right ul li {
-    margin-left: 6px;
+  }
+
+  .nav-menu-right {
+    /* justify-content: flex-end; */
   }
 }
 /* 320px-End */
@@ -13,13 +13,11 @@
 /* 768px-start */
 
 @media (min-width: 768px) {
-  header .nav-top .nav-right ul li.extra-padding {
+  header .nav-right ul li.extra-padding {
     padding: 0;
   }
-  header .nav-top .nav-right ul li {
-    margin-left: 16px;
-  }
 }
+
 /* 768px-End */
 
 /* 1024px-start */
@@ -27,6 +25,9 @@
 @media (min-width: 1024px) {
   header .nav-top .nav-right ul li.extra-padding {
     padding: 0 50px 0 34px;
+  }
+  header .nav-right ul li {
+    margin-left: 16px;
   }
 }
 
