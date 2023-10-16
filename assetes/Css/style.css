@@ -40,7 +40,7 @@ img {
 /* -------------header-START------------- */
 
 /* ----top-navbar-start------ */
-
+/* 
 header .nav-top,
 header .nav-top .nav-right ul li a {
   color: var(--primary-color);
@@ -85,13 +85,13 @@ header .nav-right ul li.extra-padding {
 header .nav-right ul li a {
   display: flex;
   align-items: center;
-}
+} */
 
 /* ----top-navbar-end------ */
 
 /* ----navbar-start------ */
 
-nav.navbar {
+/* nav.navbar {
   padding: 20px 0;
 }
 
@@ -124,6 +124,7 @@ nav.navbar .nav-right button span.cart-number {
   top: 5px;
   right: -9px;
 }
+*/
 
 /* nav.navbar .nav-right {
   position: relative;
