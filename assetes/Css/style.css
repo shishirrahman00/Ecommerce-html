@@ -1109,6 +1109,7 @@ nav.navbar .nav-right button .hover-part input[type="search"] {
 .instagram-part .instagram-part-photo img {
   height: 130px;
   width: 100%;
+  object-fit: cover;
 }
 
 .instagram-part .absolute-text-part a {

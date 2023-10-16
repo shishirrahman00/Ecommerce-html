@@ -46,6 +46,11 @@
 /* ------------------SHOP RESPONSIVE-START-------------- */
 
 @media (min-width: 320px) {
+  .new-itemss {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
   .pagination .pagination-wrapper {
     display: flex;
     justify-content: center;
@@ -56,6 +61,28 @@
 
   .shipping-info .shipping-info-content.right {
     border-top: 0;
+  }
+
+  .newslatter-service .newslatter-bg-wrapper {
+    margin-bottom: 20px;
+    padding: 40px 6px;
+  }
+  .newslatter-service .newslatter-bg-wrapper .newslatter-form h2 {
+    font-size: 3.5rem;
+  }
+  .newslatter-service .newslatter-bg-wrapper .newslatter-form p {
+    font-size: 0.775rem;
+    width: 100%;
+  }
+
+  .newslatter-service
+    .newslatter-bg-wrapper
+    .newslatter-form
+    .sign-up
+    form
+    button {
+    font-size: 0.675rem;
+    padding: 20px 16px;
   }
 
   footer .footer-right ul {
@@ -76,12 +103,13 @@
   footer .footer-menu ul li a {
     font-size: 0.55rem;
   }
-  .newslatter-service .newslatter-bg-wrapper {
-    margin-bottom: 20px;
-  }
 }
 
 @media (min-width: 768px) {
+  .new-itemss {
+    padding-top: 120px;
+    padding-bottom: 50px;
+  }
   .pagination .pagination-wrapper {
     display: flex;
     justify-content: center;
@@ -96,6 +124,26 @@
   }
   footer .footer-menu ul li a {
     font-size: 0.75rem;
+  }
+  .newslatter-service .newslatter-bg-wrapper .newslatter-form h2 {
+    font-size: 4.5rem;
+  }
+  .newslatter-service .newslatter-bg-wrapper .newslatter-form p {
+    font-size: 1rem;
+    width: 70%;
+  }
+
+  .newslatter-service .newslatter-bg-wrapper {
+    padding: 62px 40px;
+  }
+  .newslatter-service
+    .newslatter-bg-wrapper
+    .newslatter-form
+    .sign-up
+    form
+    button {
+    font-size: 1.125rem;
+    padding: 14px 40px;
   }
 }
 
