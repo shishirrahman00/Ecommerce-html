@@ -11,6 +11,8 @@ body {
   font-size: 1rem;
   font-weight: 400;
   overflow-x: hidden;
+  position: relative;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -693,7 +695,7 @@ nav.navbar .nav-right button .hover-part input[type="search"] {
   width: 70%;
 }
 
-.instagram-part {
+/* .instagram-part {
   display: flex;
   flex-wrap: wrap;
   gap: 2px;
@@ -705,7 +707,7 @@ nav.navbar .nav-right button .hover-part input[type="search"] {
 .instagram-part .photo img {
   width: 120px;
   height: 130px;
-}
+} */
 
 /* ---------NEWSLATTER-SECTION-END--------- */
 
@@ -825,3 +827,346 @@ nav.navbar .nav-right button .hover-part input[type="search"] {
 /* ------------LOOKBOOK SECTION-END--------- */
 
 /* --------------------------------HOME-PAGE-2 CSS END---------------------------------- */
+/* --------------------------------SHOP-PAGE-CSS-START ---------------------------------- */
+/* -------new-items-start------- */
+
+.new-itemss{
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+/* -------new-items-End------- */
+/* -------new-product-items-start------- */
+
+.new-product-items{}
+.new-product-items .signle-product-items{
+  position: relative;
+  height: 375px;
+}
+
+.new-product-items .signle-product-items img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.new-product-items .signle-product-items .offers-text 
+{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+  z-index: 5;
+}
+
+.new-product-items .signle-product-items .offers-text p{
+  font-family: "Lato", sans-serif;
+  font-size: 0.625rem ;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  text-align: center;
+  background-color: #5064fa;
+  color: #fff;
+}
+.new-product-items .signle-product-items .offers-text-seecond p{
+  background-color: #fad232;
+}
+
+
+
+/* hover-part-start */
+.new-product-items .signle-product-items .items-hover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 80%);
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0.7);
+  transition: .3s;
+}
+.new-product-items .signle-product-items:hover .items-hover{
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+.new-product-items .signle-product-items .items-hover .cart-icon{}
+.new-product-items .signle-product-items .items-hover .cart-icon button {
+  background-color: #333;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: none;
+}
+.new-product-items .signle-product-items .items-hover .rating-icon{}
+.new-product-items .signle-product-items .items-hover .rating-icon i{
+  font-size: 0.75rem;
+  line-height: 1.83;
+}
+/* hover-part-end */
+
+.new-product-items  .signle-product-items-description{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.new-product-items  .signle-product-items-description h5{
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+
+}
+.new-product-items  .signle-product-items-description p{
+  margin-bottom: 0;
+  font-family: "Playfair Display", serif;
+  color: var(--primary-color);
+  margin-top: 4px;
+}
+
+/* -------new-product-items-END------- */
+/* -------PAGINATION-START------- */
+.pagination{
+  padding-bottom: 100px;
+  padding-top: 60px;
+}
+.pagination .pagination-wrapper{}
+.pagination .pagination-wrapper ul{
+  display: flex;
+  align-items: center;
+}
+.pagination .pagination-wrapper ul li{
+  margin-right: 30px;
+}
+
+.pagination .pagination-wrapper ul li a{
+  display: inline-block;
+  font-family: "Playfair Display", serif;
+  font-size: 1.125rem;
+  color: var( --primary-color);
+
+}
+.pagination .pagination-wrapper ul li a.active{
+  color: var(--body-color);
+}
+.pagination .pagination-wrapper ul li a:hover{
+  color: var(--body-color);
+}
+.pagination .pagination-wrapper ul li a i{
+  font-size: 0.675rem;
+}
+
+/* -------PAGINATION-END------- */
+/* -------SHIPPING-INFO-START------- */
+.shipping-info{
+  padding-bottom: 120px;
+}
+
+.shipping-info .shipping-info-content {
+  border: 1px solid var(--body-color);
+  padding: 50px 0 36px 0;
+}
+
+.shipping-info .shipping-info-content h4{
+  margin-bottom: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.shipping-info .shipping-info-content p {
+  margin-bottom: 0;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  margin-top: 14px;
+}
+
+.shipping-info .shipping-info-content a{
+  font-family: "Lato", sans-serif;
+  font-size: 0.75rem;
+  color: #1ba3d9;
+  margin-top: 28px;
+  display: inline-block;
+}
+
+.shipping-info .shipping-info-content a i{
+  font-size: 0.65rem;
+}
+
+/* -------SHIPPING-INFO-END------- */
+/* -------NEWSLATTER-SERVICE-START------- */
+.newslatter-service{
+padding-bottom: 60px;
+}
+
+.newslatter-service .newslatter-bg-wrapper{
+  background-image: url(../img/fashion.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 62px 40px;
+  position: relative;
+}
+.newslatter-service .newslatter-bg-wrapper::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+  opacity: 60%;
+  content: "";
+}
+
+.newslatter-service .newslatter-bg-wrapper .newslatter-form{
+ position: relative;
+ z-index: 100;
+
+}
+
+.newslatter-service .newslatter-bg-wrapper .newslatter-form h2{
+  font-family: "Playfair Display", serif;
+  font-size: 4.5rem;
+  line-height: 1.18;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.newslatter-service .newslatter-bg-wrapper .newslatter-form p{
+  margin-bottom: 0;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.875;
+  font-weight: 500;
+  width: 70%;
+  color: #fff;
+}
+
+.newslatter-service .newslatter-bg-wrapper .newslatter-form .sign-up{
+  margin: 30px 0 40px 0;
+
+}
+
+.newslatter-service .newslatter-bg-wrapper .newslatter-form .sign-up form{
+  position: relative;
+}
+
+.newslatter-service .newslatter-bg-wrapper .newslatter-form .sign-up form input[type="email"]{
+  font-family: "Lato", sans-serif;
+  font-size: 0.875rem;
+  width: 100%;
+  padding: 18px 26px;
+  max-height: 60px;
+  border: none;
+}
+
+.newslatter-service .newslatter-bg-wrapper .newslatter-form .sign-up form button{
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 14px 40px;
+  border: 1px solid transparent;
+  background-color: #cf2226;
+  color: #fff;
+  border: none;
+  display: inline-block;
+  font-family: "Playfair Display", serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+ .instagram-part{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  position: relative;
+}
+
+
+.instagram-part .instagram-part-photo{
+}
+
+.instagram-part .instagram-part-photo img{
+  height: 130px;
+  width: 100%;
+}
+
+
+.instagram-part .absolute-text-part a{
+  background-color: var(--body-color);
+  font-family: "Lato", sans-serif;
+  font-size: 0.875rem;
+  color: #fff;
+  padding: 2px 6px;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/* -------NEWSLATTER-SERVICE-END------- */
+
+
+/* -------FOOTER-START------- */
+footer{
+  padding-bottom: 20px;
+}
+footer .footer-menu{}
+footer .footer-menu ul{ 
+  display: flex;
+  align-items: end;
+  gap: 12px;
+}
+footer .footer-menu ul li{}
+footer .footer-menu ul li a{
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-size: 0.75rem;
+  color: var(--primary-color);
+
+}
+footer .footer-menu ul li a h2{
+  color: var(--body-color);
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 1;
+}
+footer .footer-right ul{
+  justify-content: flex-end;
+  align-items: end;
+}
+/* -------FOOTER-END------- */
+
+
+.back-to-top {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.back-to-top:hover {
+  color: #fff;
+}
+
+/* --------------------------------SHOP-PAGE-CSS-END---------------------------------- */

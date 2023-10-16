@@ -42,3 +42,49 @@
 /* 1440px-End */
 
 /* ------------------HOME-1 RESPONSIVE-END-------------- */
+
+
+/* ------------------SHOP RESPONSIVE-START-------------- */
+@media (min-width: 1440px) {
+  .newslatter-service .newslatter-bg-wrapper{
+    margin-bottom: 0 !important;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .newslatter-service .newslatter-bg-wrapper{
+    margin-bottom: 0 !important;
+  }
+
+  .shipping-info .shipping-info-content.right {
+    border-left: 0;
+    border-top: 1px solid #000 !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .pagination .pagination-wrapper{
+    display: flex;
+    justify-content: center;
+  }
+
+  .newslatter-service .newslatter-bg-wrapper{
+    margin-bottom: 20px;
+  }
+  
+}
+
+
+@media (min-width: 320px) {
+  .pagination .pagination-wrapper{
+    display: flex;
+    justify-content: center;
+  }
+
+  .shipping-info .shipping-info-content.right {
+    border-top: 0;
+  }
+ 
+}
+/* ------------------SHOP RESPONSIVE-END-------------- */
