@@ -43,17 +43,64 @@
 
 /* ------------------HOME-1 RESPONSIVE-END-------------- */
 
-
 /* ------------------SHOP RESPONSIVE-START-------------- */
-@media (min-width: 1440px) {
-  .newslatter-service .newslatter-bg-wrapper{
-    margin-bottom: 0 !important;
+
+@media (min-width: 320px) {
+  .pagination .pagination-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  footer {
+    padding-bottom: 70px;
+  }
+
+  .shipping-info .shipping-info-content.right {
+    border-top: 0;
+  }
+
+  footer .footer-right ul {
+    justify-content: center;
+    align-items: end;
+  }
+
+  footer .footer-menu ul {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  footer .footer-right ul {
+    margin-top: 20px;
+  }
+  footer .footer-menu ul li a {
+    font-size: 0.55rem;
+  }
+  .newslatter-service .newslatter-bg-wrapper {
+    margin-bottom: 20px;
   }
 }
 
+@media (min-width: 768px) {
+  .pagination .pagination-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer .footer-menu ul {
+    gap: 30px;
+  }
+
+  footer .footer-right ul {
+    margin-top: 20px;
+  }
+  footer .footer-menu ul li a {
+    font-size: 0.75rem;
+  }
+}
 
 @media (min-width: 1024px) {
-  .newslatter-service .newslatter-bg-wrapper{
+  .newslatter-service .newslatter-bg-wrapper {
     margin-bottom: 0 !important;
   }
 
@@ -61,30 +108,31 @@
     border-left: 0;
     border-top: 1px solid #000 !important;
   }
+  footer .footer-right ul {
+    justify-content: flex-end;
+    align-items: end;
+  }
+  footer .footer-menu ul {
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  footer .footer-right ul {
+    justify-content: flex-end;
+    align-items: end;
+    margin-top: 0;
+  }
+
+  footer {
+    padding-bottom: 20px;
+  }
 }
 
-@media (min-width: 768px) {
-  .pagination .pagination-wrapper{
-    display: flex;
-    justify-content: center;
+@media (min-width: 1440px) {
+  .newslatter-service .newslatter-bg-wrapper {
+    margin-bottom: 0 !important;
   }
-
-  .newslatter-service .newslatter-bg-wrapper{
-    margin-bottom: 20px;
-  }
-  
-}
-
-
-@media (min-width: 320px) {
-  .pagination .pagination-wrapper{
-    display: flex;
-    justify-content: center;
-  }
-
-  .shipping-info .shipping-info-content.right {
-    border-top: 0;
-  }
- 
 }
 /* ------------------SHOP RESPONSIVE-END-------------- */
