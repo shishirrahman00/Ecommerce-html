@@ -103,6 +103,9 @@
   footer .footer-menu ul li a {
     font-size: 0.55rem;
   }
+  .back-to-top {
+    left: 45%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -145,6 +148,9 @@
     font-size: 1.125rem;
     padding: 14px 40px;
   }
+  .back-to-top {
+    left: 50%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -184,3 +190,29 @@
   }
 }
 /* ------------------SHOP RESPONSIVE-END-------------- */
+
+/* ------------------SHOP-2-RESPONSIVE-START--------------- */
+
+@media (min-width: 320px) {
+  .main-banner
+    .main-banner-content
+    .main-banner-content-img
+    .main-banner-content-img-title
+    p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-banner
+    .main-banner-content
+    .main-banner-content-img
+    .main-banner-content-img-title
+    p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1024px) {
+}
+
+/* ------------------SHOP-2-RESPONSIVE-END--------------- */
