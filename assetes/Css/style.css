@@ -1477,3 +1477,179 @@ footer .footer-right ul {
 /* -------------PRODUCT-CATAGORY-END------------- */
 
 /* --------------------------------SHOP-PAGE-2-CSS-START ---------------------------------- */
+/* ----------------------------------PRODUCT-DETAILS-1-CSS-START---- ---------------------------------- */
+/* --------product-detail-Start--------- */
+.product-detail {
+  padding-top: 100px;
+}
+
+/* product-detail-left-img-section-start---- */
+
+.product-detail .product-detail-content {
+}
+
+.product-detail .product-detail-content .product-detail-content-img {
+  position: relative;
+}
+.product-detail
+  .product-detail-content
+  .product-detail-content-img:hover
+  .image-hover-icon {
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.product-detail .product-detail-content .product-detail-content-img img {
+  width: 100%;
+  height: 675px;
+  object-fit: cover;
+}
+.product-detail
+  .product-detail-content
+  .product-detail-content-img
+  .image-hover-icon {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 60%);
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+.product-detail
+  .product-detail-content
+  .product-detail-content-img
+  .image-hover-icon
+  button {
+  background-color: rgba(0, 0, 0, 80%);
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 0.915;
+  width: 70px;
+  height: 70px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: none;
+}
+
+.product-detail .product-detail-content .small-image-slider {
+}
+.product-detail .product-detail-content .small-image-slider .single-item-img {
+}
+.product-detail
+  .product-detail-content
+  .small-image-slider
+  .single-item-img
+  img {
+  width: 100px;
+  height: 120px;
+  object-fit: contain;
+}
+
+/* product-detail-left-img-section-END---- */
+
+/* product-detail-Right-DESCRIPTION-section-start---- */
+.product-detail .product-detail-description {
+}
+.product-detail .product-detail-description .product-detail-description-title {
+}
+.product-detail
+  .product-detail-description
+  .product-detail-description-title
+  h1 {
+  margin-bottom: 0;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--body-color);
+}
+
+.product-detail
+  .product-detail-description
+  .product-detail-description-title
+  .offer-text {
+  margin: 8px 0 20px 0;
+}
+
+.product-detail
+  .product-detail-description
+  .product-detail-description-title
+  .offer-text
+  p {
+  font-family: "Lato", sans-serif;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  text-align: center;
+  background-color: #fad232;
+  color: #fff;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.product-detail
+  .product-detail-description
+  .product-detail-description-title
+  .price-tag {
+}
+
+.product-detail
+  .product-detail-description
+  .product-detail-description-title
+  .price-tag
+  p {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0;
+}
+
+.product-detail
+  .product-detail-description
+  .product-detail-description-title
+  .item-details {
+  margin: 25px 0 16px 0;
+}
+
+.product-detail
+  .product-detail-description
+  .product-detail-description-title
+  .item-details
+  p {
+  font-family: "Lato", sans-serif;
+  font-size: 0.875rem;
+  line-height: 2.14;
+  color: var(--body-color);
+  margin-bottom: 0;
+}
+
+.product-detail
+  .product-detail-description
+  .product-detail-description-title
+  .item-ratings {
+}
+
+.product-detail
+  .product-detail-description
+  .product-detail-description-title
+  .item-ratings
+  i {
+  font-size: 1rem;
+  line-height: 1.375;
+  color: #fad232;
+}
+
+/* product-detail-Right-DESCRIPTION-section-END---- */
+
+/* --------product-detail-END--------- */
+/* ----------------------------------PRODUCT-DETAILS-1-CSS-END ---------------------------------- */
