@@ -35,9 +35,11 @@ $(".slick-slider").slick({
   ],
 });
 
-$(".small-image-slider").slick({
+$(".multiple-items").slick({
+  infinite: true,
   slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
+  slidesToScroll: 3,
+  arrows: true,
+  prevArrow: '<i class="fa-solid fa-chevron-left"></i>',
+  nextArrow: '<i class="fa-solid fa-chevron-right"></i>',
 });
