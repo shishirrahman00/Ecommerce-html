@@ -1848,6 +1848,45 @@ footer .footer-right ul {
 }
 
 /* social */
+
+/* ------description-tabs-start--------- */
+.description-tabs {
+  font-family: "Lato", sans-serif;
+}
+
+.description-tabs ul.nav {
+}
+
+.description-tabs ul.nav li.nav-item {
+}
+
+.description-tabs ul.nav li.nav-item button {
+  color: var(--primary-color);
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 14px 30px;
+}
+
+.description-tabs ul.nav li.nav-item button.nav-link.active {
+  color: var(--body-color);
+}
+
+.description-tabs #myTabContent {
+  color: var(--primary-color);
+  border: 1px solid #dee2e6;
+  border-top: none;
+  padding: 36px 30px 40px 30px;
+  font-size: 0.875rem;
+  line-height: 2.14;
+}
+.description-tabs #myTabContent p span {
+  padding-top: 16px;
+}
+
+/* .description-tabs ul.nav li.nav-item.show .nav-link {
+} */
+/* ------description-tabs-END--------- */
 /* product-detail-Right-DESCRIPTION-section-END---- */
 
 /* --------product-detail-END--------- */
