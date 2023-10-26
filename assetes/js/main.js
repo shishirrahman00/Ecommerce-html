@@ -35,11 +35,29 @@ $(".slick-slider").slick({
   ],
 });
 
-$(".multiple-items").slick({
-  infinite: true,
+// $(".multiple-items").slick({
+//   infinite: true,
+//   slidesToShow: 3,
+//   slidesToScroll: 3,
+//   arrows: true,
+
+// });
+
+$(".slider-for").slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: ".slider-nav",
+});
+
+$(".slider-nav").slick({
   slidesToShow: 3,
-  slidesToScroll: 3,
-  arrows: true,
+  slidesToScroll: 1,
+  asNavFor: ".slider-for",
+  dots: false,
   prevArrow: '<i class="fa-solid fa-chevron-left"></i>',
   nextArrow: '<i class="fa-solid fa-chevron-right"></i>',
+  centerMode: true,
+  focusOnSelect: true,
 });
