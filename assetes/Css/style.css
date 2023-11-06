@@ -1561,17 +1561,6 @@ footer .footer-right ul {
 
 .product-detail .product-detail-content .small-image-slider.slider-nav i {
   position: absolute;
-  outline: none;
-  border: none;
-  top: 50%;
-  width: 15px;
-  height: 50px;
-  background-color: var(--primary-color);
-  color: #fff;
-}
-
-.product-detail .product-detail-content .small-image-slider.slider-nav i {
-  position: absolute;
   top: 50%;
   transform: translateY(-50%);
   z-index: 100;
@@ -1676,7 +1665,7 @@ footer .footer-right ul {
 .product-detail .product-detail-description .stock-available ul {
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 30px;
   margin-top: 26px;
   margin-bottom: 24px;
 }
@@ -1689,8 +1678,7 @@ footer .footer-right ul {
 }
 
 .product-detail .product-detail-description .stock-available ul li:last-child {
-  margin-left: -20px;
-  position: relative;
+  margin-left: -18px;
 }
 
 .product-detail
@@ -1707,6 +1695,7 @@ footer .footer-right ul {
   border-left: 1px solid var(--primary-color);
   opacity: 80%;
 }
+
 .product-detail .product-detail-description .stock-available ul li a {
   color: var(--primary-color);
 }
@@ -1874,6 +1863,7 @@ footer .footer-right ul {
 /* social */
 
 /* ------description-tabs-start--------- */
+
 .description-tabs {
   font-family: "Lato", sans-serif;
 }
@@ -1904,6 +1894,7 @@ footer .footer-right ul {
   font-size: 0.875rem;
   line-height: 2.14;
 }
+
 .description-tabs #myTabContent p span {
   padding-top: 16px;
 }

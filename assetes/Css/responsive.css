@@ -219,10 +219,124 @@
 
 /* -----------------------------PRODUCT-DETAILS-1-CSS-START ----------------------- */
 @media (min-width: 320px) {
+  .product-detail .product-detail-content .product-detail-content-img img {
+    height: 425px;
+  }
+
+  .product-detail .product-detail-description .stock-available ul {
+    gap: 20px;
+  }
+
+  .product-detail .product-detail-description .stock-available ul li {
+    font-size: 0.65rem;
+  }
+
+  .product-detail
+    .product-detail-description
+    .stock-available
+    ul
+    li:nth-child(3) {
+    margin-left: -7px;
+  }
+
+  .product-detail
+    .product-detail-description
+    .stock-available
+    ul
+    li:last-child {
+    margin-left: -8px;
+  }
+
+  .product-detail
+    .product-detail-description
+    .stock-available
+    ul
+    li:last-child::before {
+    left: -5px;
+  }
+
+  .product-detail
+    .product-detail-description
+    .cart-section
+    form
+    button.add-cart {
+    font-size: 0.8rem;
+    padding: 0px 13px;
+    margin-left: 8px;
+  }
+
+  .description-tabs ul.nav li.nav-item button {
+    font-size: 0.65rem;
+    padding: 14px 6px;
+  }
+
+  .description-tabs #myTabContent {
+    padding: 36px 15px 40px 16px;
+    font-size: 0.75rem;
+  }
 }
 
 @media (min-width: 768px) {
+  .product-detail .product-detail-content .product-detail-content-img img {
+    height: 675px;
+  }
+
+  .product-detail .product-detail-description .stock-available ul {
+    gap: 30px;
+  }
+
+  .product-detail .product-detail-description .stock-available ul li {
+    font-size: 0.75rem;
+  }
+
+  .product-detail
+    .product-detail-description
+    .stock-available
+    ul
+    li:nth-child(3) {
+    margin-left: 0px;
+  }
+
+  .product-detail
+    .product-detail-description
+    .stock-available
+    ul
+    li:last-child {
+    margin-left: -10px;
+  }
+  .product-detail
+    .product-detail-description
+    .stock-available
+    ul
+    li:last-child::before {
+    left: -8px;
+  }
+
+  .product-detail
+    .product-detail-description
+    .cart-section
+    form
+    button.add-cart {
+    font-size: 1.125rem;
+    padding: 14px 26px;
+    margin-left: 20px;
+  }
+
+  .description-tabs ul.nav li.nav-item button {
+    padding: 14px 20px;
+    font-size: 0.875rem;
+  }
+  .description-tabs #myTabContent {
+    padding: 36px 30px 40px 30px;
+    font-size: 0.875rem;
+    /* border-top: 1px solid transparent; */
+  }
 }
-@media (min-width: 1024px) {
+
+@media (min-width: 1025px) {
+  .description-tabs ul.nav li.nav-item button {
+    padding: 14px 30px;
+  }
 }
+
 /* -----------------------------PRODUCT-DETAILS-1-CSS-END ------------------------ */
