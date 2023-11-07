@@ -340,3 +340,22 @@
 }
 
 /* -----------------------------PRODUCT-DETAILS-1-CSS-END ------------------------ */
+
+/* -----------------------------PRODUCT-DETAILS-2-CSS-START ------------------------ */
+
+@media (min-width: 320px) {
+}
+@media (min-width: 769px) {
+  .product-detail .product-detail-description .stock-available ul {
+    gap: 22px;
+  }
+}
+@media (min-width: 1024px) {
+}
+@media (min-width: 1025px) {
+  .product-detail .product-detail-description .stock-available ul {
+    gap: 30px;
+  }
+}
+
+/* -----------------------------PRODUCT-DETAILS-2-CSS-END ------------------------ */
