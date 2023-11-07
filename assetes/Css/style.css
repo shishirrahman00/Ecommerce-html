@@ -1945,6 +1945,10 @@ footer .footer-right ul {
   object-fit: contain;
 }
 
+.product-detail.product--detail .product-detail-description .item-details p {
+  color: var(--primary-color);
+}
+
 .product-detail.product--detail
   .product-detail-description
   .wishlist
@@ -1967,6 +1971,17 @@ footer .footer-right ul {
   .social
   a:hover {
   color: var(--body-color);
+}
+
+.product-catagory .new-product-items-title {
+  padding-top: 60px;
+}
+.product-catagory .new-product-items-title h2 {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 /* -----------------------------PRODUCT-DETAILS-2-CSS-END ------------------------ */

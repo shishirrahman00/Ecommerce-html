@@ -346,15 +346,40 @@
 @media (min-width: 320px) {
 }
 @media (min-width: 769px) {
-  .product-detail .product-detail-description .stock-available ul {
+  .product-detail.product--detail
+    .product-detail-description
+    .stock-available
+    ul {
     gap: 22px;
+  }
+  .product-detail.product--detail
+    .product-detail-description
+    .cart-section
+    form
+    button.add-cart {
+    font-size: 1.125rem;
+    padding: 0px 22px;
+    margin-left: 10px;
   }
 }
 @media (min-width: 1024px) {
 }
 @media (min-width: 1025px) {
-  .product-detail .product-detail-description .stock-available ul {
+  .product-detail.product--detail
+    .product-detail-description
+    .stock-available
+    ul {
     gap: 30px;
+  }
+
+  .product-detail.product--detail
+    .product-detail-description
+    .cart-section
+    form
+    button.add-cart {
+    font-size: 1.125rem;
+    padding: 14px 26px;
+    margin-left: 20px;
   }
 }
 
