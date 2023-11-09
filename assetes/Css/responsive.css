@@ -343,8 +343,20 @@
 
 /* -----------------------------PRODUCT-DETAILS-2-CSS-START ------------------------ */
 
-@media (min-width: 320px) {
+/* @media (min-width: 320px) {
+  .product-detail.product--detail .slide-tabs .details-tabs .nav-tabs button {
+    font-size: 0.675rem;
+    padding: 20px 10px 22px 8px;
+  }
 }
+
+@media (min-width: 768px) {
+  .product-detail.product--detail .slide-tabs .details-tabs .nav-tabs button {
+    font-size: 1rem;
+    padding: 24px 0px 24px 30px;
+  }
+} */
+
 @media (min-width: 769px) {
   .product-detail.product--detail
     .product-detail-description

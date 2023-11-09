@@ -1972,6 +1972,60 @@ footer .footer-right ul {
   a:hover {
   color: var(--body-color);
 }
+.product-detail.product--detail .slide-tabs {
+  padding-top: 60px;
+}
+
+.product-detail.product--detail .slide-tabs .details-tabs {
+  border: 1px solid #dee2e6;
+}
+.product-detail.product--detail .slide-tabs .details-tabs .nav-tabs {
+  flex-basis: 80%;
+}
+
+.product-detail.product--detail .slide-tabs .details-tabs .nav-tabs button {
+  border: 1px solid #dee2e6;
+  border-radius: 0;
+  border-left: none;
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 24px 0px 24px 30px;
+  text-align: start;
+}
+
+.product-detail.product--detail
+  .slide-tabs
+  .details-tabs
+  .nav-tabs
+  button.active {
+  border-right: none;
+  color: var(--body-color);
+  border-color: #dee2e6;
+}
+
+.product-detail.product--detail
+  .slide-tabs
+  .details-tabs
+  .nav-tabs
+  button:first-child {
+  border-top: none;
+}
+.product-detail.product--detail
+  .slide-tabs
+  .details-tabs
+  .nav-tabs
+  button:last-child {
+  border-bottom: none;
+}
+
+.product-detail.product--detail .slide-tabs #v-pills-tabContent {
+  padding: 20px 20px 30px 24px;
+  font-size: 0.875rem;
+  line-height: 2.14;
+  color: var(--primary-color);
+}
 
 .product-catagory .new-product-items-title {
   padding-top: 60px;
