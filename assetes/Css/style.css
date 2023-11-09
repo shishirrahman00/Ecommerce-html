@@ -1981,6 +1981,7 @@ footer .footer-right ul {
 }
 .product-detail.product--detail .slide-tabs .details-tabs .nav-tabs {
   flex-basis: 80%;
+  border-bottom: none;
 }
 
 .product-detail.product--detail .slide-tabs .details-tabs .nav-tabs button {
@@ -2011,13 +2012,6 @@ footer .footer-right ul {
   .nav-tabs
   button:first-child {
   border-top: none;
-}
-.product-detail.product--detail
-  .slide-tabs
-  .details-tabs
-  .nav-tabs
-  button:last-child {
-  border-bottom: none;
 }
 
 .product-detail.product--detail .slide-tabs #v-pills-tabContent {
