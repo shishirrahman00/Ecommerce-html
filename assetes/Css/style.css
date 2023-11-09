@@ -1990,6 +1990,7 @@ footer .footer-right ul {
   border-left: none;
   color: var(--primary-color);
   font-size: 1rem;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   padding: 24px 0px 24px 30px;
@@ -2017,6 +2018,7 @@ footer .footer-right ul {
 .product-detail.product--detail .slide-tabs #v-pills-tabContent {
   padding: 20px 20px 30px 24px;
   font-size: 0.875rem;
+  font-family: "Lato", sans-serif;
   line-height: 2.14;
   color: var(--primary-color);
 }
