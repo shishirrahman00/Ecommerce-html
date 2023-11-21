@@ -2035,3 +2035,126 @@ footer .footer-right ul {
 }
 
 /* -----------------------------PRODUCT-DETAILS-2-CSS-END ------------------------ */
+
+/* -----------------------------CHECKOUT-CSS-START------------------------ */
+.checkout-heading {
+}
+.checkout-heading .checkout-title {
+  padding-bottom: 68px;
+}
+.checkout-heading .checkout-title h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+.checkout-heading .checkout-title p {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.checkout-pricing {
+}
+.checkout-pricing .checkout-pricing-table {
+}
+.checkout-pricing .checkout-pricing-table table {
+}
+.checkout-pricing .checkout-pricing-table table thead {
+  text-transform: capitalize;
+  font-family: "Playfair Display", serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  border-bottom: 1px solid #dee2e6;
+}
+.checkout-pricing .checkout-pricing-table table thead {
+}
+
+.checkout-pricing .checkout-pricing-table table thead tr th {
+  padding-bottom: 14px;
+}
+.checkout-pricing .checkout-pricing-table table thead tr th:nth-child(1) {
+}
+
+.checkout-pricing .checkout-pricing-table table thead tr th:nth-child(2) {
+  text-align: left;
+}
+.checkout-pricing .checkout-pricing-table table thead tr th:nth-child(3) {
+  text-align: start;
+}
+.checkout-pricing .checkout-pricing-table table thead tr th:nth-child(4) {
+}
+.checkout-pricing .checkout-pricing-table table thead tr th:nth-child(5) {
+}
+
+.checkout-pricing .checkout-pricing-table table tbody tr {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.checkout-pricing .checkout-pricing-table table tbody tr td {
+  padding: 30px 0px;
+}
+.checkout-pricing .checkout-pricing-table table tbody tr td img {
+  width: 100px;
+  height: 130px;
+  object-fit: contain;
+}
+.checkout-pricing .checkout-pricing-table table tbody tr td input {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  text-align: center;
+}
+.checkout-pricing .checkout-pricing-table table tbody tr td input:focus {
+  box-shadow: none;
+  border: 1px solid #dee2e6;
+  outline: none;
+}
+.checkout-pricing .checkout-pricing-table table tbody tr td:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.checkout-pricing .checkout-pricing-table table tbody tr td:nth-child(2) {
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  font-size: 0.875rem;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.checkout-pricing .checkout-pricing-table table tbody tr td:nth-child(3) {
+  text-align: start;
+  width: 170px;
+}
+
+.checkout-pricing .checkout-pricing-table table tbody tr td:nth-child(3),
+.checkout-pricing .checkout-pricing-table table tbody tr td:nth-child(5) {
+  font-family: "Playfair Display", serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--primary-color);
+}
+
+.checkout-pricing .checkout-pricing-table table tbody tr td:nth-child(4) {
+}
+
+.checkout-pricing .checkout-pricing-table table tbody tr td:nth-child(5) {
+}
+.checkout-pricing .checkout-pricing-table table tbody tr td:nth-child(6) {
+  font-size: 0.75rem;
+  line-height: 2.15;
+  color: #cf2226;
+}
+
+.checkout-pricing .checkout-pricing-table table tbody tr td:nth-child(1) p {
+  padding-left: 115px;
+  font-size: 0.875rem;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1.14;
+}
+/* -----------------------------CHECKOUT-CSS-END------------------------ */
